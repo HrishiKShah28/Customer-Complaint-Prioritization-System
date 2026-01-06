@@ -1,3 +1,4 @@
+python-multipart
 # Core
 numpy>=1.23
 pandas>=1.5
