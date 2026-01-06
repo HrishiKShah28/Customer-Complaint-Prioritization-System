@@ -2,7 +2,8 @@ import torch
 import torch.nn.functional as F
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-MODEL_PATH = "Artifacts/artifacts/bert_sentiment_model"
+MODEL_PATH = "HrishiShah/customer-complaint-priority-bert"
+
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
