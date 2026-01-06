@@ -1,3 +1,9 @@
+# Large ML artifacts
+Artifacts/bert_results/
+Artifacts/artifacts/bert_sentiment_model/
+data/
+*.pt
+*.safetensors
 # Python
 __pycache__/
 *.pyc
