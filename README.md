@@ -69,7 +69,7 @@ This logic is:
 ---
 ## 🏗️ System Architecture
 
-```text
+
 Input File (JSON / CSV)
         ↓
 FastAPI Backend
@@ -208,5 +208,6 @@ production-oriented backend architecture
 
 business-driven ML logic
 
-## 🏗️ System Architecture
+
+
 
