@@ -1,35 +1,13 @@
-python-multipart
-# Core
+# ---- Core API ----
+fastapi==0.110.0
+uvicorn==0.27.1
+pydantic==2.6.1
+python-multipart==0.0.9
+
+# ---- ML inference only ----
+torch==2.1.2
+transformers==4.38.2
 numpy>=1.23
+
+# ---- Data handling ----
 pandas>=1.5
-
-# NLP basics
-nltk>=3.8
-spacy>=3.7
-gensim>=4.3
-
-# ML
-scikit-learn>=1.3
-
-# Deep Learning
-torch>=2.0
-
-# Transformers
-transformers>=4.38
-sentence-transformers>=2.6
-
-# Topic Modeling
-bertopic>=0.16
-
-# Visualization 
-matplotlib>=3.7
-seaborn>=0.12
-plotly>=5.18
-
-# Utilities
-tqdm>=4.66
-
-# API (later stage)
-fastapi>=0.110
-uvicorn>=0.27
-pydantic>=2.6
